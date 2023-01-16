@@ -1,0 +1,529 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;500&display=swap");
+
+/* Common style */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header section design  */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* NavBar design  */
+.nav-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 240px 50px 228px; /*top change*/
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.item {
+  list-style: none;
+}
+.item a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  margin-left: 40px;
+}
+/* NavBar design end  */
+
+/* Feature design start  */
+.company {
+  margin: 55px 530px 50px 530px;
+}
+.company-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  text-align: center;
+}
+.company-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+}
+.company-btn {
+  width: 180px;
+  height: 64px;
+  padding: 20px 24px;
+  background-color: orangered;
+  color: wheat;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 370px;
+  margin-right: 650px;
+}
+.image img {
+  margin: 45px 240px;
+}
+/* Banner design section  */
+.banner {
+  margin: 50px 300px;
+}
+.banner-sec {
+  display: flex;
+  align-items: center;
+}
+.banner-image {
+  display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
+  gap: 24px;
+  margin-right: 70px;
+}
+.banner-detail {
+  width: 537px;
+  height: 304px;
+}
+.banner-title {
+  margin-bottom: 24px;
+}
+.span-1 {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.span-2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.span-3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+.banner-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.banner-btn {
+  width: 180px;
+  height: 64px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  padding: 20px 24px orange;
+  border: none;
+  border-radius: 5px;
+}
+/* Feature design end   */
+
+/* Experience section start  */
+hr {
+  width: 107px;
+  height: 0px;
+  border: 1px solid orangered;
+  transform: rotate(90deg);
+  margin-top: 115px;
+  margin-right: 0px;
+}
+.experince {
+  display: flex;
+  justify-content: center;
+  margin: 130px 240px 200px 240px;
+}
+.sec-1 {
+  width: 586px;
+  height: 982px;
+  margin-right: 70px;
+}
+.expi-desc {
+    box-shadow: 12px 12px 2px 1px rgba(203, 203, 224, 0.427);
+    border-radius: 5px;
+}
+.exp-header {
+  display: flex;
+}
+
+/* Header part  */
+.exp-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.exp-details {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.exp-descriptions {
+}
+.exp-desc {
+  /* here i will write the border style  */
+}
+
+.desc-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+/* Image section design  */
+.sec-2 img {
+    width: 800px;
+    height: 1059px;
+}
+.exp-btn {
+  width: 342px;
+  height: 200px;
+  background-color: #ff900e;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+}
+.btn-title {
+  width: 258px;
+  height: 19px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.btn-desc {
+  width: 258px;
+  height: 109px;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  margin-left: 28px;
+}
+/* Some facts section design start */
+.some-facts {
+  margin: 50px 300px;
+}
+.titles {
+}
+.title {
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.facts-desc {
+  width: 542px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 100px;
+}
+/* Icons */
+.fact-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 0.1fr);
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+  }
+  .icon-1:hover {
+    background-color: lightblue;
+  }
+  .icon-2:hover {
+    background-color: lightblue;
+  }
+  .icon-3:hover {
+    background-color: lightblue;
+  }
+  .icon-4:hover {
+    background-color: lightblue;
+  }
+  
+  /* Presentational Styles */
+/* icon-1  */
+.icon-1 img {
+  margin: 45px 75px 0px 90px;
+}
+.icon-1 h3 {
+  margin: 15px 0px 0px 102px;
+}
+.icon-1 p {
+  margin: 15px 16px 0px 43px;
+}
+/* icon-2  */
+.icon-2 img {
+  margin: 45px 75px 0px 90px;
+}
+.icon-2 h3 {
+  margin: 15px 0px 0px 92px;
+}
+.icon-2 p {
+  margin: 15px 16px 0px 43px;
+}
+/* icon-3  */
+.icon-3 img {
+  margin: 45px 75px 0px 90px;
+}
+.icon-3 h3 {
+  margin: 15px 0px 0px 93px;
+}
+.icon-3 p {
+  margin: 15px 0px 0px 53px;
+}
+
+/* icon-4  */
+.icon-4 img {
+  margin: 45px 75px 0px 90px;
+}
+.icon-4 h3 {
+  margin: 15px 0px 0px 87px;
+}
+.icon-4 p {
+  margin: 15px 0px 0px 75px;
+}
+/* Some facts section design end  */
+
+/* Sponsors section design start  */
+.our-sponsor {
+  margin: 150px 240px 130px 240px;
+}
+.spon-head {
+  text-align: center;
+  border: 5px slod black;
+  margin: 50px 690px 50px 490px;
+}
+.spon-title {
+  width: 370px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-left: 80px;
+}
+.spon-desc {
+  width: 542px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(5, 0.3fr);
+  justify-items: center;
+}
+.sponsors .amazon {
+  margin-top: 12.5px;
+}
+/* footer design  */
+footer {
+  width: 1400px;
+  height: 100px;
+  background: #fff4e7;
+  margin: 130px 465px 216px 315px;
+}
+.footer p {
+  width: 655px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 20px;
+  /* text-align: center; */
+  color: #424242;
+  padding: 38px 410px;
+}
+
+.hide {
+  display: none;
+}
+
+/* -------------------
+------Media Query---- 
+--------------------*/
+@media screen and (max-width: 668px) {
+  /* Header section start */
+  .nav-sec {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .item {
+    list-style: none;
+    padding: 10px;
+  }
+
+  .image img {
+    width: 300px;
+    height: 300px;
+    margin: 5px 40px;
+  }
+  .company {
+    margin: 5px 30px 15px 30px;
+  }
+  .company-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+  }
+  .company-btn {
+    margin-left: 70px;
+    margin-right: 350px;
+  }
+  /* Header section end  */
+
+  /* banner section start */
+  .banner-sec {
+    flex-direction: column-reverse;
+  }
+  .banner {
+    margin: 10px 100px;
+  }
+  .banner-detail {
+    width: 237px;
+    height: 604px;
+  }
+  .banner-image {
+    grid-template-columns: repeat(1, 0.1fr);
+    gap: 4px;
+    margin-right: 0px;
+  }
+  /* banner section end  */
+
+  /* expereince start  */
+  .experince {
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 40px 10px 0px;
+  }
+  .sec-1 {
+    width: 386px;
+    height: 1382px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+  }
+  .sec-2 img {
+    width: 350px;
+    height: 959px;
+    margin-left: 20px;
+  }
+
+  .exp-btn {
+    width: 200px;
+    height: 100px;
+  }
+  .btn-title {
+    width: 58px;
+    height: 9px;
+    font-weight: 100;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  .btn-desc {
+    width: 58px;
+    height: 9px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin-left: 28px;
+  }
+  /* expereince end  */
+
+  /* some facts start  */
+  .some-facts {
+    margin: 5px 50px;
+  }
+  .facts-desc {
+    width: 342px;
+    margin-bottom: 100px;
+  }
+  .fact-icons {
+    grid-template-columns: repeat(1, 0.1fr);
+    grid-row-gap: 30px;
+  }
+  /* some facts end   */
+
+  /* sponsors start  */
+  .our-sponsor {
+    margin: 50px 40px 30px 0px;
+  }
+
+  .spon-head {
+    text-align: center;
+    border: 5px slod black;
+    margin: 50px 0px 50px 20px;
+  }
+  .spon-title {
+    width: 270px;
+    height: 103px;
+    margin-left: 40px;
+  }
+  .spon-desc {
+    width: 242px;
+    height: 102px;
+    margin-left: 55px;
+  }
+  .sponsors {
+    grid-template-columns: repeat(1, 0.3fr);
+    grid-row-gap: 40px;
+    margin-left: 100px;
+  }
+  /* sponsors end   */
+
+  /* footer start  */
+  footer {
+    width: 500px;
+    height: 200px;
+    background: #fff4e7;
+    margin: 30px 5px 16px 0;
+  }
+  .footer p {
+    width: 255px;
+    height: 3px;
+    padding: 8px 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 80px;
+  }
+}
